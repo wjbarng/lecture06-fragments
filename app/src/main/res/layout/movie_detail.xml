@@ -8,8 +8,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Placeholder (2016)"
-        android:textSize="32dp"
-        android:paddingBottom="10dp"
+        android:textSize="32sp"
+        android:paddingBottom="10sp"
         />
 
     <TextView
@@ -17,10 +17,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/itunes_base_url"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:autoLink="web"
         android:clickable="true"
-        android:paddingBottom="10dp"
+        android:paddingBottom="10sp"
         />
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Placeholder Description"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:maxLines="10"
         android:ellipsize="end"
         />

@@ -33,25 +33,10 @@
             />
     </LinearLayout>
 
-    <FrameLayout
-        android:id="@+id/container"
+    <ListView
+        android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/input_layout">
-
-        <!--<fragment-->
-            <!--android:id="@+id/fragment"-->
-            <!--android:name="edu.uw.fragmentdemo.MovieListFragment"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"/>-->
-
-    </FrameLayout>
-
-    <!--<ListView-->
-        <!--android:id="@+id/list_view"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_below="@id/input_layout"-->
-        <!--/>-->
-
+        android:layout_below="@id/input_layout"
+        />
 </RelativeLayout>
